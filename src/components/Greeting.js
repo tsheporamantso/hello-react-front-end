@@ -1,4 +1,4 @@
-import React, { useEffect, Fragment } from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchRandomGreeting } from '../redux/greetings/greetingsSlice';
 
@@ -22,7 +22,7 @@ function Greeting() {
 
   if (error) {
     return (
-      <p className="loading">Something went wrong!</p>
+      <div className="loading">Something went wrong with fetching data!</div>
     );
   }
 
