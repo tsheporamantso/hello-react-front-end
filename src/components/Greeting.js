@@ -1,8 +1,39 @@
+import React, { useEffect, Fragment } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchRandomGreeting } from '../redux/greetings/greetingsSlice';
+
 function Greeting() {
+  const dispatch = useDispatch();
+  const { greeting, isLoading, error } = useSelector((state) => state.greetings);
+
+  useEffect(() => {
+    dispatch(fetchRandomGreeting());
+  }, [dispatch]);
+
+  const handleClick = () => {
+    dispatch(fetchRandomGreeting());
+  };
+
+  if (isLoading) {
+    return (
+      <div className="loading">.....isLoading</div>
+    );
+  }
+
+  if (error) {
+    return (
+      <p className="loading">Something went wrong!</p>
+    );
+  }
+
   return (
-    <div className="App">
-      <h1>Hello React</h1>
-    </div>
+    <>
+      <h1 className="title">Greetings!</h1>
+      <div className="main">
+        <div className="greeting">{greeting}</div>
+        <button type="button" onClick={handleClick}>Submit another greeting</button>
+      </div>
+    </>
   );
 }
 
