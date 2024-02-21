@@ -1,70 +1,202 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+  <h1><b> Random Greetings👋</b></h1>
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📗 Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-### `npm test`
+<!-- PROJECT DESCRIPTION -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 📖 Random Greetings <a name="about-project"></a>
 
-### `npm run build`
+**Random Greetings** This application generates random greeting messages on click of button, built with React fetch data from Rails back-end App.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Built With <a name="built-with"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React and Redux**
+- **Components**
+- **JSX**
+- **CSS**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm run eject`
+<details>
+  <summary>React</summary>
+  <ul>
+    <li><a href="https://create-react-app.dev">React</a></li>
+  </ul>
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<details>
+  <summary>Node js</summary>
+  <ul>
+    <li><a href="https://nodejs.org/en">Node js</a></li>
+  </ul>
+</details>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- Features -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Key Features <a name="key-features"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React Components**
+- **Rails API**
+- **Random Greetings**
+- **Redux**
 
-## Learn More
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- LIVE DEMO -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Live Demo <a name="live-demo"></a>
 
-### Code Splitting
+- [Link](https://github.com/tsheporamantso/hello-rails-back-end/pull/1) to Hello-Rails-Back-End Application 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+<!-- GETTING STARTED -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Making a Progressive Web App
+To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Prerequisites
 
-### Advanced Configuration
+In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Node.js in your computer
+- IDE(e.g.: VScode,...)
+- Terminal
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  mkdir your-prefered-folder-name
+  git clone git@github.com:tsheporamantso/hello-react-front-end.git
+```
+
+### Install
+
+Install this project with:
+
+```sh
+  cd hello-react-front-end
+  npm install or npm i
+```
+
+### Usage
+
+To run the project, execute the following command:
+run the result on the terminal through:
+
+```sh
+  npm start or yarn start
+```
+
+### Run tests
+
+To run tests, execute the following command on the terminal
+
+```sh
+  npm test
+```
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Not deployed
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Gladwin Tshepo Ramantso**
+
+- GitHub: [@tsheporamantso](https://github.com/tsheporamantso)
+- Twitter: [@ramgt001](https://twitter.com/ramgt001)
+- LinkedIn: [Tshepo Gladwin Ramantso](https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Improve Stylings**
+- [ ] **Add User Authentication**
+- [ ] **Add More Greetings in various languages**
+- [ ] **Add NavBar and Footer components**
+- [ ] **Add bootstrap styles**
+- [ ] **Deploy**
+
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/tsheporamantso/hello-react-front-end/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please give a star on [github](https://github.com/tsheporamantso) & follow us on [twitter](https://twitter.com/ramgt001) and also connect on [Linkedin](https://www.linkedin.com/in/tshepo-ramantso-b6a35433/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank:
+
+- [ ] **Microverse and all the staff**
+- [ ] **Microverse Communinity**
+- [ ] **Thanks to my coding Partners**
+- [ ] **Thanks to my Morning-Session-Group and Standup-Team Partners and**
+- [ ] **Thanks to Code Reviewers**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/tsheporamantso/hello-react-front-end/blob/a8709d77bfe2c17b3b179c1ce770f23a100d94dc/LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
